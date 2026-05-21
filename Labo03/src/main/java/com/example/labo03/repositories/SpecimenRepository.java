@@ -1,0 +1,9 @@
+package com.example.labo03.repositories;
+
+import com.example.labo03.entities.Specimen;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.UUID;
+
+public interface SpecimenRepository extends JpaRepository<Specimen, UUID> {
+}
